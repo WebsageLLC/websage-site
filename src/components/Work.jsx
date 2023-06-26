@@ -1,8 +1,8 @@
 import React from 'react'
 import GitLife from '../assets/gitlife.png'
-import Weather from '../assets/weather search.PNG'
+import Weather from '../assets/weatherSearch.jpg'
 import BudgetBuddy from '../assets/budgetbuddy.png'
-import TriviaTracker from '../assets/Trivia Tracker.PNG'
+import TriviaTracker from '../assets/TriviaTracker.jpg'
 import EmpTrack from '../assets/nodeemptrack.png'
 import CodeGame from '../assets/codegame.png'
 
@@ -80,11 +80,6 @@ const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href="https://github.com/Crothos/flashcard-app">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Code
-                                    </button>
-                                </a>
 
                             </div>
                         </div>
@@ -102,11 +97,6 @@ const Work = () => {
                                 <a href="https://trivia-tracker.herokuapp.com/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
-                                    </button>
-                                </a>
-                                <a href="https://github.com/Crothos/UTA-BC14-Tech-Blog">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Code
                                     </button>
                                 </a>
 
