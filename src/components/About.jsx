@@ -5,7 +5,9 @@ import Camelia from '../assets/Camelia.jpg'
 
 const About = () => {
     return (
+
         <div name='about' className='w-full h-full bg-gray-800 text-gray-300'>
+
 
             <div className='flex flex-col justify-center items-center w-full h-full'> 
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
@@ -18,7 +20,9 @@ const About = () => {
                     <div className='sm:text-right text-4xl font-bold'>
                         <img className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500 w-40 mx-auto border-4 border-[#5cdb95]' src={Stevo} alt='self-portrait'></img>
                     </div>
-                    <div >
+
+                    <div>
+
                         <p className='font-bold text-[#edf5e1]'>Stephen is a Full Stack Web Developer with roots in Podcasting and Live Streaming. From the DFW metroplex, he's also a new dad and old gamer.</p>
                     </div>
                 </div>
