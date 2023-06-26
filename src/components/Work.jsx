@@ -1,8 +1,8 @@
 import React from 'react'
 import GitLife from '../assets/gitlife.png'
-import FlashFacts from '../assets/flashfacts.png'
+import Weather from '../assets/weather search.PNG'
 import BudgetBuddy from '../assets/budgetbuddy.png'
-import TechBlog from '../assets/techblog.png'
+import TriviaTracker from '../assets/Trivia Tracker.PNG'
 import EmpTrack from '../assets/nodeemptrack.png'
 import CodeGame from '../assets/codegame.png'
 
@@ -66,16 +66,16 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${FlashFacts})` }}
+                        style={{ backgroundImage: `url(${Weather})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2x1 font-bold text-white tracking-wider'>
-                                Third Party API JS Application
+                                Find a 5 day weather forecast for any location
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://crothos.github.io/flashcard-app/">
+                                <a href="https://mescamilla1114.github.io/challenge6-weatherforecast/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
@@ -90,16 +90,16 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${TechBlog})` }}
+                        style={{ backgroundImage: `url(${TriviaTracker})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2x1 font-bold text-white tracking-wider'>
-                                Full-Stack JS Application
+                                Play Trivia and see how you stack up against others!
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="https://bc14-tech-blog.herokuapp.com/">
+                                <a href="https://trivia-tracker.herokuapp.com/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
