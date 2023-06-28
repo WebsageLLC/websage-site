@@ -11,12 +11,12 @@ const About = () => {
 
             <div className='flex flex-col justify-center items-center w-full h-full'> 
                 <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                    <div className='sm:text-right pb-8 pl-4'>
+                    <div className='sm:text-right pb-8 pl-4 py-2'>
                         <p className='text-4xl font-bold inline border-b-4 border-[#5cdb95]'>About</p>
                     </div>
                 </div>
 
-                <div className='max-w-[1000px] w-full grid lg:grid-cols-2 gap-8 px-4'>
+                <div className='max-w-[1000px] w-full grid lg:grid-cols-2 gap-8 px-4 py-6'>
                     <div className='sm:text-right text-4xl font-bold'>
                         <img className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500 w-40 mx-auto border-4 border-[#5cdb95]' src={Stevo} alt='self-portrait'></img>
                     </div>
@@ -27,7 +27,7 @@ const About = () => {
                     </div>
                 </div>
                     <br></br>
-                <div className='max-w-[1000px] w-full grid xl:grid-cols-2 gap-8 px-4'>
+                <div className='max-w-[1000px] w-full grid xl:grid-cols-2 gap-8 px-4 py-6'>
                     <div className='sm:text-right text-4xl font-bold'>
                         <img className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500 w-40 mx-auto border-4 border-[#5cdb95]' src={Michael} alt='Michael Escamilla'></img>
                     </div>
@@ -39,12 +39,12 @@ const About = () => {
                     </div>
                 </div>
                 
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 py-6'>
                     <div className='sm:text-right text-4xl font-bold'>
-                        <img className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500 w-40 mx-auto border-4 border-[#5cdb95]' src={Camelia} alt='Camelia'></img>
+                        <img className='shadow-lg shadow-[#040c16] hover:scale-110 duration-500 w-40 h-49 mx-auto border-4 border-[#5cdb95]' src={Camelia} alt='Camelia'></img>
                     </div>
                     <div>
-                        <p className='font-bold text-[#edf5e1]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore delectus placeat asperiores adipisci! Nisi aliquam voluptatibus quisquam laudantium expedita nesciunt fugit placeat, ipsa dolore excepturi inventore, eligendi enim rem minima.</p>
+                        <p className='font-bold text-[#edf5e1]'> Camelia is a 31-year-old full-stack developer with a background in social work. With a unique blend of skills, she combines effective communication, problem-solving, and a passion for coding to deliver impactful solutions. Bridging the gap between technology and human interaction, she thrives in complex challenges, delivering user-friendly applications while making a positive impact in her community. </p>
                     </div>
                 </div>
 
