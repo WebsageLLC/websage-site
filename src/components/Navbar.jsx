@@ -24,7 +24,7 @@ const Navbar = () => {
         </li>
         <li class='glow-button'>
           <Link to="about" smooth={true} duration={500}>
-            About
+            About Us
           </Link>
         </li>
         <li class='glow-button'>
