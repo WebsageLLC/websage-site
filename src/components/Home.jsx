@@ -1,5 +1,8 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import homePic from '../assets/HomePic.png'
+import homePic2 from '../assets/homePic2.png'
+import homePic3 from '../assets/homePic3.png'
 import { Link } from 'react-scroll'
 
 const Home = () => {
@@ -7,7 +10,10 @@ const Home = () => {
         <div name='home' className='w-full h-screen bg-[#5cdb95]'>
 
             {/* Container */}
-            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+            <div className='content-center grid grid-cols-2 space-x-12  max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+
+
+               <div className=''>
                 <p className='text-[#edf5e1] [text-shadow:_0_2px_0_rgb(0_0_0_/_40%)] text-xl'>Welcome to</p>
                 <h1> <span className='text-4xl sm:text-7xl font-bold text-[#379683]'> Web</span> <span className='text-4xl sm:text-7xl font-bold text-[#379683]'>Sage</span><span className='text-4xl sm:text-7xl text-[#edf5e1]'>llc</span></h1>
                 <h1> <span className='text-4xl sm:text-7xl font-bold text-[#379683]'> Web</span> <span className='text-4xl sm:text-7xl  text-[#edf5e1]'>development </span></h1>
@@ -28,7 +34,16 @@ const Home = () => {
                     </button>
                 </Link>
                 </div>
+                </div>
+
+
+
+                <div className=''>
+                    <img src={homePic3} style={{width: "600px"}} />
+                    
             </div>
+            </div>
+           
         </div>
     )
 }
