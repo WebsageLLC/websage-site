@@ -22,7 +22,7 @@ const About = () => {
                     </div>
                     <div>
                     <p className='text-2xl font-bold inline border-b-4 border-[#5cdb95]'>Stephen Totten</p>
-                        <p className='py-6 font-bold text-[#edf5e1]'>Stephen is a Full Stack Web Developer, Podcaster, and Streamer. He spent 14 years working for a non-profit providing closed-captions for live TV before becoming a dev. From the DFW metroplex, he's also a new dad and old gamer.</p>
+                        <p className='py-6 font-bold text-[#edf5e1]'>Stephen is a Full Stack Web Developer, Podcaster, and Twitch Streamer. He spent 14 years working for a non-profit providing closed-captions for live TV before going back to school to become a developer. From the DFW metroplex, he's also a new dad and old gamer. </p>
                     </div>
                 </div>
                     <br></br>
