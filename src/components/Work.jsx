@@ -3,8 +3,6 @@ import GitLife from '../assets/gitlife.png'
 import Weather from '../assets/weatherSearch.jpg'
 import BudgetBuddy from '../assets/budgetbuddy.png'
 import TriviaTracker from '../assets/TriviaTracker.jpg'
-import EmpTrack from '../assets/nodeemptrack.png'
-import CodeGame from '../assets/codegame.png'
 import PintPlanner from '../assets/pintplanner8888.png'
 import BetterReads from '../assets/BetterReads.png'
 
