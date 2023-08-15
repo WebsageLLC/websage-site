@@ -22,7 +22,7 @@ const About = () => {
                     </div>
                     <div>
                     <p className='text-2xl font-bold inline border-b-4 border-[#5cdb95]'>Stephen Totten</p>
-                        <p className='py-6 font-bold text-[#edf5e1]'>Stephen is a Full Stack Web Developer, Podcaster, and Twitch Streamer. He spent 14 years working for a non-profit providing closed-captions for live TV before going back to school to become a developer. From the DFW metroplex, he's also a new dad and old gamer. </p>
+                        <p className='py-6 font-bold text-[#edf5e1]'>Stephen is a Full Stack Web Developer, Podcaster, and Twitch Streamer. After graduating with a Bachelor's Degree in Radio/TV/Film from the University of North Texas, he spent 14 years working for a non-profit company providing closed-captions for live TV before going back to school to become a developer, and earned his certificate in March of 2023. From the DFW metroplex, he's also a new dad and old gamer. </p>
                     </div>
                 </div>
                     <br></br>
