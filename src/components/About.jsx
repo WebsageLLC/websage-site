@@ -7,7 +7,7 @@ import Jessica from '../assets/Jessica.jpg'
 const About = () => {
     return (
 
-        <div name='about' className='w-full h-full bg-gray-800 text-gray-300'>
+        <div name='about' className='w-full h-[140rem] bg-gray-800 text-gray-300'>
 
 
             <div className='flex flex-col p-4 justify-center items-center w-full h-full'>
