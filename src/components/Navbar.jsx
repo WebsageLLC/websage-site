@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#edf5e1]  text-[#05386b]'>
-      <div>
+      <div className='pl-4'>
         <img src={Logo} alt="Websage Logo" style={{ width: '80px' }} />
       </div>
 
